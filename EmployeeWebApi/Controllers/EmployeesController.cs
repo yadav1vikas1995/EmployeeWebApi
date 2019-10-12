@@ -10,7 +10,15 @@ namespace EmployeeWebApi.Controllers
 {
     public class EmployeesController : ApiController
     {
-        public IEnumerable<Employee> Get()
+        //public IEnumerable<Employee> Get()
+        //{
+        //    using (EmployeeDBEntities employeeDBEntities = new EmployeeDBEntities())
+        //    {
+        //        return employeeDBEntities.Employees.ToList();
+        //    }
+        //}
+        [HttpGet]
+        public IEnumerable<Employee> LoadAllEmployee()
         {
             using (EmployeeDBEntities employeeDBEntities = new EmployeeDBEntities())
             {
