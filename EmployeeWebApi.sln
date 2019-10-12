@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeWebApi", "EmployeeWebApi\EmployeeWebApi.csproj", "{DC5A6459-D763-4EFC-8853-AB81DE9F19BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDataAccess", "EmployeeDataAccess\EmployeeDataAccess.csproj", "{5201D507-3BC5-41B5-B237-9D96D3F74636}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC5A6459-D763-4EFC-8853-AB81DE9F19BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5A6459-D763-4EFC-8853-AB81DE9F19BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5A6459-D763-4EFC-8853-AB81DE9F19BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5A6459-D763-4EFC-8853-AB81DE9F19BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5201D507-3BC5-41B5-B237-9D96D3F74636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5201D507-3BC5-41B5-B237-9D96D3F74636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5201D507-3BC5-41B5-B237-9D96D3F74636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5201D507-3BC5-41B5-B237-9D96D3F74636}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E41F5E7F-7376-46EC-888C-8AE231389BBC}
+	EndGlobalSection
+EndGlobal
