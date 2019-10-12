@@ -98,7 +98,9 @@ namespace EmployeeWebApi.Controllers
 
         }
 
-        public HttpResponseMessage Put(int Id,[FromBody]Employee employee)
+        //public HttpResponseMessage Put(int Id,[FromBody]Employee employee)
+        //public HttpResponseMessage Put(int Id, [FromUri]Employee employee)
+        public HttpResponseMessage Put([FromBody]int Id, [FromUri]Employee employee)
         {
             try
             {
